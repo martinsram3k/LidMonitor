@@ -1,0 +1,30 @@
+# Build artifacts
+*.o
+*.swiftdeps
+*.swiftmodule
+*.swiftsourceinfo
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+*.xcworkspace
+*.xcodeproj
+*.playground
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Runtime
+.env
+*.plist~
+
+# Swift
+.swift-version
